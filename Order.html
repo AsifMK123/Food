@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Order here</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body background="Image/B_image.jpg" text="black">
+    
+    <h1 align="center" ><u>Order yoor Food</u></h1>
+    
+    <table align="center">
+        <tr>
+            <td valign="bottom"><img src="Image/H.Chiken Biriyani copy.jpeg" width="252" height="150"></td>
+            <td valign="bottom"><img src="Image/pizza.jpeg" width="252" height="150"></td>
+            <td valign="bottom"><img src="Image/Tikka.jpeg" width="254" height="150"></td>
+            <td valign="bottom"><img src="Image/pasta.jpeg" width="254" height="150"></td>
+            <td valign="bottom"><img src="Image/kabab.jpeg" width="254" height="150"></td>
+            <td valign="bottom"><img src="Image/H.Chiken Biriyani copy.jpeg" width="250" height="150"></td>
+            
+         </tr>
+    </table>
+
+<div style="width :60%; margin: auto;">
+<form method="post" name="forms" action="Order.html" width="70%">
+
+    <fieldset>
+        <legend align="center"><b>Personal Information</b></legend>
+        <label>Name:</label><input type="text" name="name" size="30/">
+        <label>Mobile:</label><input type="text" name="Mobile" size="30/">
+        <label>Address:<textarea col="70" rows="1" name="Address"></textarea>  </label>
+    </fieldset>
+
+    <fieldset>
+
+<legend align="center"><b>Order Details</b></legend>
+<select name="item">
+    <option >Select your item </option>
+    <option value="1">M chiken </option>
+    <option value="2">Hydrabadi Biriyani </option>
+    <option value="3">BBq Pizza </option>
+    <option value="4">Fried Chiken </option>
+    <option value="5">Cheese Pasta </option>
+    <option value="6">Peri Peri Chiken</option>
+    <option value="7">Beef Burger </option>
+    <option value="8">M chiken </option>
+  </select>
+
+  <label>Quantity:</label><input type="number" name="Quantity"  placeholder="Quantity">
+
+  <label>Delivery date:</label><input type="date" name="delivery" >
+  <label>Delivery Time:</label><input type="time" name="local-time">
+
+  <select name="payment">
+    <option>select payment option</option>
+    <option value="1">Bkash</option>
+    <option value="1">Nagad</option>
+    <option value="1">Rocket</option>
+    <option value="1">Cash on delivery</option>
+</select>
+
+</fieldset>
+
+
+<fieldset>
+<legend align="center"><b>Sauces</b></legend>
+<input type="radio" name="sauce" value="1" /> BBq sauce
+<input type="radio" name="sauce" value="2" /> Garlic sauce
+<input type="radio" name="sauce" value="3" /> Pesto
+<input type="radio" name="sauce" value="4" /> Garlic Ranch sauce
+<input type="radio" name="sauce" value="5" /> Creamy Bechamel sauce
+<input type="radio" name="sauce" value="6" /> Hummus
+<input type="radio" name="sauce" value="7" /> Buffalo Sauce
+<input type="radio" name="sauce" value="8" /> Tomato sauce
+</fieldset>
+
+
+
+<fieldset>
+    <legend align="center"><b>Cold Drink</b></legend>
+<input type="radio" name="Drink" value="1" /> Pepsi
+<input type="radio" name="Drink" value="2" /> Coke
+<input type="radio" name="Drink" value="3" /> 7up
+<input type="radio" name="Drink" value="4" /> Sprite
+<input type="radio" name="Drink" value="5" /> Mojo
+<input type="radio" name="Drink" value="6" /> Merenda
+<input type="radio" name="Drink" value="7" /> Clemon
+<input type="radio" name="Drink" value="8" /> Fanta
+<input type="radio" name="Drink" value="9" /> Maja
+<input type="radio" name="Drink" value="10" /> Mounten dew
+<input type="radio" name="Drink" value="11" /> speed
+<input type="radio" name="Drink" value="12" /> Pran Mango
+
+<select name="Quantity">
+  <option >Quantity </option>
+    <option value="1">1/2L</option>
+    <option value="2">1L</option>
+    <option value="3">2L </option>
+    <option value="4">3L </option>
+    <option value="5">4L </option>
+</select>
+
+</fieldset>
+
+
+<fieldset>
+    <legend><b>Special Instruction</b></legend>
+    <textarea name="Instruction" rows="3" cols="42"></textarea>
+</fieldset>
+   
+
+    <input type="submit" value="Place Your Order">
+    <input type="reset" value="Start over">
+
+
+
+</form>
+
+
+</div>
+
+
+
+
+</body>
+</html>

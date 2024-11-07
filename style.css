@@ -1,0 +1,276 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+scroll-behavior: smooth;
+font-family: 'Josefin sans', sans-serif;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #e53937;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar{
+    width: 10px;
+}
+
+#navbar{
+    background: transparent;
+    padding: 0px 9% 0px;
+}
+
+#logo img{
+    width: 150px;
+    margin-top: 3px;
+}
+
+.nav-item .nav-link{
+    color:black;
+    font-size: 16px;
+    font-weight: 550;
+    transition: 0.5s;
+}
+
+.nav-item .nav-link:hover{
+    color:#e53937;
+}
+
+#navbar input{
+    border-radius: 5px;
+
+}
+ #btn{
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #e53937;
+    background: transparent;
+    transition: 0.5s;
+}
+
+#submit input:hover{
+
+background: #e53937;
+}
+
+#btn:hover{
+    background: #e53937;
+    color: white;
+}
+
+
+/*Navbar Ennd */
+
+
+/* Home section start */
+.home{
+
+    width: 90%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+}
+
+.home .img{
+    flex:1 1 300;
+}
+
+.home .img img{
+    width: 100%;
+    margin-left: 5px;
+}
+
+.home-content{
+    flex: 1 1 400px;
+    margin-top: 30px;
+}
+
+.home-content h3{
+font-size: 40px;
+font-weight: 700;
+}
+.home-content h3 span{
+    color: #e53937;
+}
+#home-btn{
+    padding: 10px;
+    text-decoration: none;
+    background: #e53937;
+    color:white;
+    border-radius: 5px;
+}
+
+/* Home section End */
+
+
+
+/*Top Section start*/
+
+.top-section{
+padding: 20px;
+}
+.top-section h5{
+    color: #e53937;
+    text-align: center;
+}
+.top-section h3{
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}
+.top-section .row{
+    margin-top: 30px;
+    align-items: center;
+}
+.top-section .row .card{
+    border: none;
+}
+.top-section .row .card img{
+    width: 200px;
+    margin: auto;
+}
+.top-section .card-body{
+    text-align: center;
+   }
+
+.top-section .card-body h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+/*Top Section End */
+
+
+/*Our Menu start*/
+
+
+.menu{
+    padding: 100px 11% 100px;
+}
+.menu  h3{
+    text-align: center;
+    color: #e53937;
+}
+.menu h2{
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+.menu h2 i{
+    color: #e53937;
+}
+.menu h6{
+    font-size: 16px;
+    text-align: center;
+}
+.menu p{
+  margin-top: 5px;
+font-weight: bold;
+text-align: center;
+}
+.stars i{
+    color: orange;
+    font-size: 13px;
+}
+.menu p i{
+    float: right;
+    color: #e53937;
+    cursor: pointer;
+}
+
+.menu h5{
+    text-align: center;
+    color: #e53937;
+}
+
+.menu .card{
+size: 6px;
+}
+    
+
+
+/*Our Menu End*/
+
+/* Reviews Start */
+.Reviews{
+    padding: 40px 0;
+    background: orange;
+    color:black;
+    text-align: center;
+}
+
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.border{
+    width: 160px;
+    height: 5px;
+    background: purple;
+    margin: 20px auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col{
+    flex: 33.33%;
+    max-width: 23.33%;
+    box-sizing:border-box;
+    padding: 15px;
+}
+.Reviews img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+
+}
+.Reviews .fas{
+    color: blue;
+}
+
+
+/* Reviews End */
+
+/* Footer section start*/
+
+
+  
+
+
+/* Footer section end*/
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
